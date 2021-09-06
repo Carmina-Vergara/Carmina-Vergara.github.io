@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Modelado 3d de Superficies (comp) - Carmina Vergara- Taller Fabricación 2021</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://carmina-vergara.github.io/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.a32658f2eedb9bb852f8513925cb445e40633983f1ff54349b037dd04eafa2fa.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-documentación">
+      <a href="/docs/">
+        <span>Documentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://carmina-vergara.github.io"><img alt="Logo" src="/images/logo-uai.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://carmina-vergara.github.io"><img alt="Logo" src="/images/logo-uai.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-documentación">
+      <a href="/docs/">
+        <span>Documentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Docs</h4>
+  <ul>
+    
+    <li class="">
+      <a href="https://carmina-vergara.github.io/docs/post-1/"> 00 - Post 1</a>
+    </li>
+    
+    <li class="">
+      <a href="https://carmina-vergara.github.io/docs/planimetr%C3%ADa/">01 - Planimetría</a>
+    </li>
+    
+    <li class="">
+      <a href="https://carmina-vergara.github.io/docs/mecanizado/">02 - Mecanizado Silla CNC</a>
+    </li>
+    
+    <li class="">
+      <a href="https://carmina-vergara.github.io/docs/mecanizado-grupal/">02.1 - Mecanizado Silla CNC Grupal</a>
+    </li>
+    
+    <li class="">
+      <a href="https://carmina-vergara.github.io/docs/mecanizado-2.5/">03 - Mecanizado 2.5 eje</a>
+    </li>
+    
+    <li class="">
+      <a href="https://carmina-vergara.github.io/docs/simulacion-dise%C3%B1o-generativo/">04 - Simulación y Diseño Generativo</a>
+    </li>
+    
+    <li class="">
+      <a href="https://carmina-vergara.github.io/docs/modelaci%C3%B3n-3d/">05 - Impresión 3D</a>
+    </li>
+    
+    <li class="active ">
+      <a href="https://carmina-vergara.github.io/docs/complementario-1/">Modelado 3d de Superficies (comp)</a>
+    </li>
+    
+    <li class="">
+      <a href="https://carmina-vergara.github.io/docs/preentrega1/">07 - Preentrega 1: Materiales</a>
+    </li>
+    
+    <li class="">
+      <a href="https://carmina-vergara.github.io/docs/preentrega2/">08 - Preentrega 2 Modelo y molde</a>
+    </li>
+    
+    <li class="">
+      <a href="https://carmina-vergara.github.io/docs/preentrega2.1/">08.1 - Pre Entrega 2: Modelo, Molde y Materiales</a>
+    </li>
+    
+    <li class="">
+      <a href="https://carmina-vergara.github.io/docs/examen-final/">09- Examen: Entrega Final</a>
+    </li>
+    
+    <li class="">
+      <a href="https://carmina-vergara.github.io/docs/markdown/">Ejemplos Markdown</a>
+    </li>
+    
+    <li class="">
+      <a href="https://carmina-vergara.github.io/docs/ejemplo/">Ejemplo Shortcodes</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">Modelado 3d de Superficies (comp)</h1>
+<div class="content ">
+  <h1 id="paso-a-paso-de-modelado-3d-de-superficies">Paso a paso de modelado 3d de Superficies.</h1>
+<p>Primero es clave saber len qué consiste el modelar superificies: construyo una cascara y luego le voy dando espesores y materialidad. La superficie es solo una topologia que va recorriendo una forma sin espesor.</p>
+<h2 id="pasos">PASOS</h2>
+<h3 id="1-boceto">1. BOCETO</h3>
+<p>En el modulo Superficie, creo un nuevo boceto en el plano top.. Con herramienta spline hago un dibujo como el de la imagen. (1 y 2)
+<img src="/img/comp1/a.png" alt="Planimetria">
+<img src="/img/comp1/b.png" alt="Planimetria"></p>
+<h3 id="2-plano">2. PLANO</h3>
+<p>Selecciono &ldquo;construir plano&rdquo;, hago click en el boceto que hice. Luego lo desplazo hacia arriba, en este caso se hizo con con 100 mm.<br>
+<img src="/img/comp1/c.png" alt="Planimetria">
+<img src="/img/comp1/d.png" alt="Planimetria"></p>
+<h3 id="3-boceto-">3. BOCETO &quot;</h3>
+<p>Creo un nuevo boceto en el nuevo plano que acabo de hacer en el paso anterior.
+<img src="/img/comp1/e.png" alt="Planimetria">
+<img src="/img/comp1/f.png" alt="Planimetria"></p>
+<h3 id="4-loft">4. LOFT</h3>
+<p>En el mismo modulo de superficie voy a Crear &gt; Loft y selecciono las líneas de ambos gemoetrías que hice en el paso 1 y 2.</p>
+<p><img src="/img/comp1/g.png" alt="Planimetria"></p>
+<p><img src="/img/comp1/h.png" alt="Planimetria">
+Al estar en el modulo de supericie, esto es lo que me creará entre ambos bocetos.</p>
+<h3 id="5-sketch">5. SKETCH</h3>
+<p>Lo siguinete es hacer un nuevo sketch y hacerlo en el plano Y.</p>
+<p><img src="/img/comp1/i.png" alt="Planimetria"></p>
+<h3 id="6-extruir">6. EXTRUIR</h3>
+<p>Luego, haremos click en Extruir y elegimos si quieremos que sea hacia un lado o ambos. En este caso extruimos hacia ambos lados, vemos que quedan dos superficies intersectadas.</p>
+<p><img src="/img/comp1/k.png" alt="Planimetria"></p>
+<h3 id="7-dividir-cuerpo">7. DIVIDIR CUERPO</h3>
+<p>Vamos al modulo de Sólido y seleccionamos Dividir Cuerpo.</p>
+<ul>
+<li>En cuerpo para Dividir tomamos la primera superficie creada y en herramienta de Divisón, la segunda.
+<img src="/img/comp1/m.png" alt="Planimetria">
+<img src="/img/comp1/n.png" alt="Planimetria"></li>
+</ul>
+<h3 id="8-cortar">8. CORTAR</h3>
+<p>Volvemos al menú de superifice y hacemos &ldquo;Trim&rdquo; o cortar como se ve en el video.</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/comp1/g2.mov"  type="video/mp4">
+    </video>
+</div>
+<p>Eliminamos las superficies que se haían creado en la intersección de las formas.</p>
+<h3 id="10-parchar">10. PARCHAR</h3>
+<p>Continuando en Superficie: vamos a Patch y selecciono la cara superior e inferior. Esto me genera un parche que cierra la forma.</p>
+<p><img src="/img/comp1/o.png" alt="Planimetria"></p>
+<p>Ahora tenemos un conjunto de superficies, pero queremos llegar a construir un sólido.</p>
+<h3 id="11-coser">11. COSER</h3>
+<p>Para eso vamos a Coser, lo que genera una unión entre las formas. Esa union está representada por las líneas verdes que se ven en la imágen. Lo haremos entre todos los sólidos.</p>
+<h3 id="11empalme">11.EMPALME</h3>
+<p>Ahora volvemos al módulo de sólido. Hacemos &ldquo;Empalme&rdquo; en todos los bordes como en la imagen.
+<img src="/img/comp1/p.png" alt="Planimetria"></p>
+<h3 id="12-vaciar">12. VACIAR</h3>
+<p>Luego usamos el comando Vaciado o &ldquo;Shell&rdquo; de 3mm de espesor, de forma que lo vacíe.
+<img src="/img/comp1/q.png" alt="Planimetria">
+Vemos en el video, el interior de nuestra figura. Se ve el vaciado creado.</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img/comp1/g3.mov"  type="video/mp4">
+    </video>
+</div>
+<p>Por lo tanto desde una superficie, logramos llegar a un sólido que es hueco, pero que tiene un espesor continuo a lo largo y ancho de la forma.
+Esto es muy útil para fabricar envases o contenedores</p>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+
+</html>
